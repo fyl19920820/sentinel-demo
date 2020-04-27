@@ -35,6 +35,7 @@ public class GoodsController {
     public String queryGoodsInfo(@RequestParam("spuId") String spuId) {
         String res = goodsQueryService.queryGoodsInfo(spuId);
         System.out.println("aaaaa");
+        System.out.println("bbbbb");
         return res;
     }
 }
