@@ -26,7 +26,6 @@ public class GoodsController {
      */
     @RequestMapping("/test")
     @ResponseBody
-    @SentinelResource("test")
     public String test() {
         return "test";
     }
